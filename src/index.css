@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-purple-100 font-sans;
+  scroll-behavior: smooth;
+}
+
+/* Custom prose style for blog */
+.prose {
+  --tw-prose-invert-body: #ede9fe;
+  --tw-prose-invert-headings: #c084fc;
+  --tw-prose-invert-links: #a855f7;
+  --tw-prose-invert-bullets: #a855f7;
+}
