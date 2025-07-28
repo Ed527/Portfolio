@@ -46,7 +46,7 @@ const Skills = () => (
           <img
             src={skill.svg}
             alt={skill.name}
-            className="w-15 h-15 md:w-12 md:h-12 object-contain"
+            className="w-14 h-14 md:w-12 md:h-12 object-contain"
             style={{ minWidth: '2rem', minHeight: '2rem' }}
           />
         </motion.li>

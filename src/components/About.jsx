@@ -40,7 +40,7 @@ const About = () => (
         </p>
         <p>
           When I'm not coding, you'll find me crafting tech solutions,
-          mentoring peers, or diving into new research papers on AI and ML and Cybersecurity.
+          mentoring peers, or diving into new research papers and taking online courses on AI and ML and Cybersecurity.
         </p>
       </motion.div>
     </div>

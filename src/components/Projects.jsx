@@ -2,8 +2,8 @@ import { motion } from 'framer-motion';
 
 const projectData = [
   {
-    title: 'NSMQ Battle',
-    desc: 'AI‑powered Flutter quiz app for Ghana’s National Science & Maths Quiz.',
+    title: 'Smart Tutor',
+    desc: 'AI‑powered Flutter app designed to help student study and boost understanding by hidering any distractions, providing soothing music to create a cool atmosphere for learning and standardized quizzes to boost memory retention',
     link: '#'
   },
   {
@@ -12,7 +12,7 @@ const projectData = [
     link: '#'
   },
   {
-    title: 'Doc Vault & ID Manager',
+    title: 'AI Math Tutor',
     desc: 'Secure offline‑first vault with AES‑256 encryption & biometrics.',
     link: '#'
   },
@@ -52,7 +52,7 @@ const Projects = () => (
             rel="noopener noreferrer"
             className="mt-4 text-primary-light hover:text-primary transition self-start"
           >
-            View&nbsp;More →
+            Coming&nbsp;Soon 
           </a>
         </motion.article>
       ))}

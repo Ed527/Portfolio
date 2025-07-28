@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Typewriter } from 'react-simple-typewriter';
 
 const Hero = () => {
   return (
@@ -10,7 +11,17 @@ const Hero = () => {
         transition={{ duration: 1 }}
       >
         <h1 className="text-4xl sm:text-6xl font-bold text-primary-light">
-          Hi, I'm <span className="text-primary">Edwin Bassina</span>
+          <Typewriter
+              words={[
+                "Hi, I'm Edwin Bassina",
+              ]}
+              loop={1}             // 0 = infinite loop; set to 1 for single run
+              cursor              // show cursor
+              cursorStyle="|"     
+              typeSpeed={70}      // ms per character
+              deleteSpeed={0}    // ms per character deletion
+              delaySpeed={2000}   // ms before deleting
+            />
         </h1>
         <p className="text-lg mt-4 text-purple-400">
           Math Student • Flutter & AI Enthusiast • Full‑Stack Developer
